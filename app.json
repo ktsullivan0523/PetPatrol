@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PetPatrol",
+    "slug": "PetPatrol",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./apps/assets/icon.png",
+    "splash": {
+      "image": "./apps/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./apps/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./apps/assets/favicon.png"
+    },
+    "description": "Pet finding app"
+  }
+}
